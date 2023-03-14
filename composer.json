@@ -1,0 +1,33 @@
+{
+    "name": "paveld/ancestry-lib",
+    "description": "PHP manilulation library for the ancesty XML files",
+    "keywords": ["ancestry", "library"],
+    "homepage": "https://github.com/PavelD/ancestry-lib#readme",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel Dobes",
+            "email": "konference@lnx.cz",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/PavelD/ancestry-lib/issues",
+        "source": "https://github.com/PavelD/ancestry-lib"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "paveld\\ancestry\\": ""
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests/AncestryLibTest.php"
+    }
+}
